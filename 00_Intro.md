@@ -1,0 +1,17 @@
+On course completion, you will be able to achieve the following:
+- Summarize fundamental security concepts.
+- Compare threat types.
+- Explain appropriate cryptographic solutions.
+- Implement identity and access management.
+- Secure enterprise network architecture.
+- Secure cloud network architecture.
+- Explain resiliency and site security concepts.
+- Explain vulnerability management.
+- Evaluate network security capabilities.
+- Assess endpoint security capabilities.
+- Enhance application security capabilities.
+- Explain incident response and monitoring concepts.
+- Analyze indicators of malicious activity.
+- Summarize security governance concepts.
+- Explain risk management processes.
+- Summarize data protection and compliance concepts.
