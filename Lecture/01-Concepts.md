@@ -10,3 +10,8 @@
 - CISO, SOC, DevSecOps, [CIRT, CSIRT, CERT]
     `Server Share ACL`
     `In the majority of cases, explicit deny permissions will not be required.`
+    `shares, permission two tabs`
+    `While the main switch for auditing object access activities is now on, auditing will not occur on most file objects until an on-object auditing setting is made.`
+
+**corrective controls != Compensate for a failed control**
+**detective controls == Record information about activities**
