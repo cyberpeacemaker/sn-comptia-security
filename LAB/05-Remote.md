@@ -9,6 +9,7 @@ apt install openssh-server
 
 # 2. Ipsec Tunneling
 - [IPSec, TLS, SSH]
+
 - In most real-world situations, you do not want to allow fallback to unsecured connections in an IPSec policy. Instead, you would want to define an IPSec policy for those IP addresses that you want to enforce and require IPSec encryption so that you can use non-IPSec encrypted communications on other IP addresses (such as when communicating with an internet site).
 
 - An IPSec Policy** must be defined on each system** that needs to support or require IPSec encrypted connections. There are three primary security methods for an IPSec policy: **permit, block, and negotiat**e security. The permit option will negotiate encryption if another system asks for it. The block option prevents IPSec negotiations.
