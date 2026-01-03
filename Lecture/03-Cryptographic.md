@@ -14,3 +14,14 @@
 
 # 3. Solution
 - Full-disk Encryption, self-encrypting drive **Volume**
+- [DBMS, SQL] > [datebase(page)-level (transparent data encryption), record-level(Cell/Column)]
+- transport encryption [WPA, IPsec(VPN), TLS], session key
+- **Perfect Forward Secrecy**  > ephemeral session key (by [Diffie-Hellman DHE, Elliptic Curve DHE])
+- (salt + pwd) * SHA = hash, key stretching(Password based derivation function 2)
+- block chain > Hash(current block) = Hash( content || previous hash || nonce ) , decentralized P2P ledger
+- obfuscation [de-identification[data masking, tokennization], **steganography**]
+
+**Summary**
+
+**Certificate Authority**
+q15, q18, q19

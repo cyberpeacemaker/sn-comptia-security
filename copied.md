@@ -1,34 +1,41 @@
-This is a great catch. You are absolutely right—from a purely technical security standpoint, allowing fallback is **less secure** than requiring encryption.
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
 
-However, in professional network engineering and cybersecurity, we have to balance the **"Security Triad" (CIA)**: Confidentiality, Integrity, and **Availability**.
+xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="200" Version="2.0"
 
-If you "Require Security" on day one of a 3-month rollout, you break **Availability**. Half your servers won't be able to talk to the other half, and your business stops. Here is exactly what "fallback" means in this context and why it's used despite the security trade-off.
+IssueInstant="2020-01-01T20:00:10Z " Destination="https://sp.foo/saml/acs" InResponseTo="100".
 
----
+<saml:Issuer>https://idp.foo/sso</saml:Issuer>
 
+<ds:Signature>...</ds:Signature>
 
+<samlp:Status>...(success)...</samlp:Status>
 
+<saml:Assertion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" ID="2000" Version="2.0"
 
----
+IssueInstant="2020-01-01T20:00:09Z">
 
-### Why we accept "Less Security" (for now)
+<saml:Issuer>https://idp.foo/sso</saml:Issuer>
 
-You are right that an attacker could technically perform a **"Downgrade Attack"** during this phase. They could trick Machine A into thinking Machine B doesn't support IPsec, forcing the communication to stay unsecure.
+<ds:Signature>...</ds:Signature>
 
-We accept this risk during a rollout for three reasons:
+<saml:Subject>...
 
-* **Connectivity is King:** During a migration, "working but unsecure" is usually considered better than "secure but broken."
-* **Gradual Hardening:** As more machines are updated, the *percentage* of your traffic that is encrypted naturally increases from 0% to 100%.
-* **The "Final Switch":** On the very last day of the 3-month rollout, once you verify every machine is updated, you change the policy from "Allow Fallback" to **"Require Security."** This is when you "lock the door" and disable all unsecure communication.
+<saml:Conditions>...
 
-### Summary of the Strategy
+<saml:AudienceRestriction>...
 
-| Phase | Policy Setting | Security Level | Business Impact |
-| --- | --- | --- | --- |
-| **Rollout (Months 1-3)** | **Allow Fallback** | Medium (mixed) | **Zero Downtime** |
-| **Post-Rollout (Final)** | **Require Security** | High (enforced) | Secure & Fully Functional |
+<saml:AuthnStatement>...
 
-> **Analogy:** It’s like installing a new keycard system in an office building. For the first week, you keep the old physical locks functional so people who haven't received their new cards yet don't get locked out in the cold. Once everyone has a card, you remove the old locks.
+<saml:AttributeStatement>
 
-Would you like to see how a **Downgrade Attack** actually works so you can see the specific risk you're concerned about?
+<saml:Attribute>...
+
+<saml:Attribute>...
+
+</saml:AttributeStatement>
+
+</saml:Assertion>
+
+</samlp:Response>
