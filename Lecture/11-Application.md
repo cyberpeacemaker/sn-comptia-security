@@ -2,7 +2,7 @@
 - (SSL)/TLS, cipher suites: ECDHE-RSA-AES128-GCM-SHA256 > TLS_AES_256_GCM_SHA384 
 - "Hash key derivation function (HKDF) is the mechanism by which the shared secret established by D-H key agreement is used to derive symmetric session keys."
 - Lightweight Directory Access Protocal (LDAP) (**Vulnerable**),  ([AD > Directory Service, LDAP > Communication Protocal]), ([LDAP > searching, Kerberos > Authentication])
-- **LDASP (port 636), [Simple Authentication and Security Layer** (**SASL**), `STARTTLS`, **preferred mechanism** for AD]
+- **LDAPS (port 636), [Simple Authentication and Security Layer** (**SASL**), `STARTTLS`, **preferred mechanism** for AD]
 - Simple Network Management Protocal (**SNMP**) [monitor, agents]
 - [**SFTP**, FTPS{Explicit (**FTPES**), Implicit(FTPS > **suprsingly tricky to configure firewall**)}]
 - {Simple Mail Transfer Protocal, [Post Office Protocal, Internet Message Access Protocal]}

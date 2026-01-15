@@ -18,7 +18,7 @@
 - Persistence [AutoRun kye, scheduled task, Windows Management Intrumnetation(WMI) event subsription]
 
 # 3. Application
-- Seesion [replay attack, forgery attack{CSRF(condufed deputy attack)/**SSRF**}]
+- Seesion [replay attack, forgery attack{cross-site request forgery CSRF(confused deputy attack)/server-side request forgery **SSRF**}]
 - **canonicalization** attack, RUL Analysis (**starting point**), percent encoding
 
 q1, q4, q9, q12, q16, q21
