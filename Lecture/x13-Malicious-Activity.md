@@ -8,6 +8,8 @@
 - **data loss prevention (DLP)** also log **blocked content event**
 
 # 2. Physicla and Netowrk
+- **bloatware**, **Potentially Unwanted Program (PUP)**
+- **Heating Ventilation Air Condition (HVAC)** room
 - Radio Frequency ID (RFID) {cloning, Skimming}
 - DoS (Reflected, )
 - DNS [on-path, cliet, server]
@@ -21,4 +23,4 @@
 - Seesion [replay attack, forgery attack{cross-site request forgery CSRF(confused deputy attack)/server-side request forgery **SSRF**}]
 - **canonicalization** attack, RUL Analysis (**starting point**), percent encoding
 
-q1, q4, q9, q12, q16, q21
+q3, q5, q7, q21

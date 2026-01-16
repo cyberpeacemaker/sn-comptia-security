@@ -1,10 +1,11 @@
 # 1. Concept
-- **ad hoc risk assessment**
+- **ad hoc risk assessment** responding to specific incident
+- Single Loss Expectanct (SLE), Annualized Loss Expectance (ALE)
 - rist [assesstment, analysic], inherent risk, residual risk
+- enterprise risk management (ERM)
 - risk response {avoid, accept, mitigate, transfer}, risk registry
 - [maximum tolerable downtime, recovery time objective, work recovery time], [mean time between failures, mean time to repair]
-- **key risk indicator (KRI)**
-- **risk owner**
+- **key risk indicator (KRI)**, **risk owner**
 
 
 # 2. Vendor
@@ -12,6 +13,7 @@
 
 
 # 3. Audit and Assessment
+- Regulatory Assessment: **External, Laws**; Compliance Assessment: **Internal, rule, policy**
 - active scan [port, service, OS, DNS, web application]
 - {**pysical, offensive, integrated, defensive**} test
 

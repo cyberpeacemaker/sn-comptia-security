@@ -6,15 +6,15 @@
 - Simple Network Management Protocal (**SNMP**) [monitor, agents]
 - [**SFTP**, FTPS{Explicit (**FTPES**), Implicit(FTPS > **suprsingly tricky to configure firewall**)}]
 - {Simple Mail Transfer Protocal, [Post Office Protocal, Internet Message Access Protocal]}
-- [Sender Policy Framework (**SPF**), Domain Keys Indentified Mail(**DKIM**), Domain-based Message Authentication, Reporting & Conformance(**DMARC**)], **Secure/Multipurpose Internet Maile Extesions (S/MIME)** > 11.1.7 Video
+- [Sender Policy Framework (**SPF**), Domain Keys Indentified Mail(**DKIM**), Domain-based Message Authentication, Reporting & Conformance(**DMARC**)], **Secure/Multipurpose Internet Mail Extesions (S/MIME)** > 11.1.7 Video
 - Dota loss prevention **DLP**, Regulation [GDPR, HIPPA, PCI DSS]
-- DNS Service [Berkley Internet Name Domain(BIND), Internet Systems Consortium(isc.org)], **DNSSEC**
+- DNS Service [Berkley Internet Name Domain(BIND), Internet Systems Consortium(isc.org)], **DNSSEC**- 
+- **BT [bluejacking, blussnarfing, blueBorne]**
 
 # App
-- Microsoft SDL, **OWASP** [Software Assurance Maturity Model, Framework, Top10]
+- Context Aware Authentication
+- Microsoft SDL, Open Worldwide Application Security Project **(OWASP)** [Software Assurance Maturity Model, Framework, Top10]
 - Session ['Secure', 'HttpOnly', 'SameSite'] attribute, Replay and request forgery attacks, **Nonces** 
 - Structured exception handler (SEH), **custome error handler**, both clint and server validation
 
 q1, q3, q4, q7, q8, q10
-
-**BT [bluejacking, blussnarfing]**
