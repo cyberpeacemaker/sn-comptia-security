@@ -5,10 +5,11 @@
 - data protection [Geo, Encrypt, Hash, Mask, Tokenize, Obfuscation, Segment, ACL]
 - personal identifiable information (**PII**)
 - **General Data Protection Regylation (GDPR)**
+- **due diligence and care**, **attestation and acknowledgement**
 
 # 2. Personnel Policies
 - operational policy: [privilege/credential management, data handling, incident response]
 - secure awareness training [assesment, plan and design, development, delivery and implementation, evaluation and feedback, reinforcement, monitor and adaption]
 - training based on **role not job title**
 
-q5, q8, q12, q13
+q8, q12

@@ -16,11 +16,10 @@
 - rogue ap > masquerading as legitmate > evil twin, disassociation attack
 - Local Security Authority Subsystem Service (**LSASS**), Security Account Manager (**SAM**) database cahed in momory, lsass.exe > **Credential Reply**, Pass the ticket (PtT) [goldern/silver ticket]
 "Where they remain a risk, a detection system can be configured to correlate a sequence of security log events, but this method can be prone to false positives. Antivirus and host-based intrusion detection can often detect the malware code used to dump credentials or launch ticket forgery attacks."
-- **collision attack** > [spoof trusted website, malware from trusted publisher]
+- **collision attack** > forge digital certificate > [spoof trusted website, malware from trusted publisher]
 - Persistence [AutoRun kye, scheduled task, Windows Management Intrumnetation(WMI) event subsription]
 
 # 3. Application
 - Seesion [replay attack, forgery attack{cross-site request forgery CSRF(confused deputy attack)/server-side request forgery **SSRF**}]
 - **canonicalization** attack, RUL Analysis (**starting point**), percent encoding
 
-q3, q5, q7, q21

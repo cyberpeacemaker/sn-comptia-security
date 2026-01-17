@@ -1,4 +1,5 @@
 # 1. Response
+**achieving** in IR cycle
 - **[Preparation, Detecion, Analysis, containment, eradication, recovery, lesson learned] IR Cycle**
 - security information and event management (SIEM), security orchestration, automation and response (SOAR)
 - computer incident response team (CIRT), computer emergency reponse tean(CERT), security operation center(SOC)
@@ -18,7 +19,6 @@
 - **retrospective network analysis** at {header, payload} level, **single pane of glass analysis** (SIEM)
 - Netflow > IP Flow Information Export (IPFOX) IETF standard, charasteristic/key [src add, dst add, protocal, src port, dst port] (+[input interface, IP type for service])
 - Security Conten Automation Protocal (SCAP), Open Vulnerability and assessment language (OVAL), Extensible Configuration Chekclist Description format (XCCDF)
-- **flow collector(metadata and statistic about traffic), network monitor(CPU/Memory load, dus, net utilization), heartbeat message(availability)**
+- **flow collector(metadata and statistic about traffic), network monitor(CPU/Memory load, dus, net utilization, Simple Network Management Protocal (SNMP)), heartbeat message(availability)**
 
-**achieving** in IR cycle
-q8, q13, q14, q15, q16, q20, q25, q27
+q10, q12, q15
