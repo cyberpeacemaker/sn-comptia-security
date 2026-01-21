@@ -3,7 +3,6 @@
 - on-premise network (enterprise LAN)
 - VLAN, security zone, 
 - **802.1x (Port-based Network Access)** < [Extensible Authenitcation Protocal(**EAP**), Remote Authentication Dia-In User Service(**RADIUS**)]
-- 5.1.17 VIDEO
 
 # 2. Security Appliance
 - Test Access Point (TAP), Switched Port Analyzer (SPAN) / mirror port
@@ -20,4 +19,4 @@
 - RDP, HTML5 VPN (WebSocket)
 - secure administrative workstations(SAWs) [out-of-band, jump server]
 
-q6, q8, q14, q19, q21
+q4 q5 q6 q10 q12 q19 21

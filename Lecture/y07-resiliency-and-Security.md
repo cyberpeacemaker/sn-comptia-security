@@ -19,4 +19,4 @@
 - Access Control Vestibule (Mantrap), cable lock, access badge, duress code
 - **closed-circuit** > open-circuit alarm
 
-q5, Q14, q19
+q16

@@ -1,15 +1,13 @@
 # 1. Algo
-- **cryptanalysis**
-- **adnvanced encryption standard AES?**
-- Cryptanalysis, keyspace, key length, [RSA, ECC]
-- hash (fixed length), collision, [SHA, MD5]
+- **cryptanalysis**, keyspace, key length, [Data Encryption Standard (**DES**), Advanced Encryption Standard (**AES**)], [ Rivest-Shamir-Adleman (**RSA**), Elliptic Curve Cryptography (**ECC**)]
+- hash (fixed length), collision, [Message-Digest Algorithm (**MD5**), Secure Hash Algorithm (**SHA**)]
 - cryptographic primitive [hash, symmetric cipher, asymmetric cipher]
-- PKCS#1, [DSA, ECDSA]
+- Public-Key Cryptograhpy Standards #1 (**PKCS#1**), [Digital Signature Algorithm (**DSA**), Elliptic Curve Digital Signature Algorithm (**ECDSA**)]
 
 # 2. PKI
 - CA, digital certificate(public key), (X.509, IETF, PKCS)
-- certificate signing request(CSR), FQDN, CN, Subject alternative name(SAN), [CN, Distinguished name]
-- revokem, suspend, Certificate revocation list(CRL), Certificate Signing Request (**CSR**), [published period < Validity Period], **Online Certificate Status Protocal(OCSP)**
+- certificate signing request(**CSR**), FQDN, CN, Subject alternative name(SAN), [CN, Distinguished name]
+- revokem, suspend, Certificate revocation list(**CRL**), Certificate Signing Request (**CSR**), [published period < Validity Period], **Online Certificate Status Protocal(OCSP)**
 - expiration, renewal, shelf-life, Key Management Interoperability Protocal(KMIP)
 - key stored tamper evident, **cryptoprocessor hardware [TPM, HSM], secure enclave** (trusted execution environment TEE)
 - [Escrow, M of N] EX: multiple key recovery agents
@@ -23,5 +21,4 @@
 - block chain > Hash(current block) = Hash( content || previous hash || nonce ) , decentralized P2P ledger
 - obfuscation [de-identification[data masking, tokennization], **steganography**]
 
-**Summary**
-q3, q14, q16, q18, q19
+q5 6 11 15 16 18

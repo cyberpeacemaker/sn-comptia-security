@@ -17,4 +17,5 @@
 - (AWS implement) **Security Assertion Markup Language(SAML)** using HTTP/S and **Simple Object Access Protocal(SOAP)**
 - Representational State Transfer (**REST**) < implemented using < **Open Authorization (OAuth)** , **JSON Web Token (JWT)**
 
-q3, q12, q13
+
+q5 q7 q12 13 18

@@ -15,4 +15,4 @@
 - email sender From, typosquatting, [cousin, lookalike, doppelganger], **hijacked subdomain**
 - compromised legitimate mail account, boost search ranking, **compromised water hole**
 
-q1, q5, q7, q17
+6 9 11

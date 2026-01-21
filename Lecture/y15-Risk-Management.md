@@ -14,4 +14,3 @@
 - **Regulatory Assessment**: External, Laws; **Compliance Assessment**: Internal, rule, policy
 - active scan [port, service, OS, DNS, web application]
 
-q1, q4, q5, q6, q10

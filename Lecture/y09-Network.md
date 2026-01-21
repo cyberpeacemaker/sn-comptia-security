@@ -1,6 +1,6 @@
 # 1. Baseline
 - CIS Benchmark, Security Technical Implementation Guides (STIGs) < Defense Information Systems Agency (DISA) 
-- puppet, chef, ansible, microsoft group policy
+- automate tool: **puppet**, chef, ansible, microsoft group policy
 - OpenSCAP, CIS-CAT Pro toll, SCAP Compliance Checker
 - unnecesasry [service, app], Privileged Access Management(PAM)
 - **Wired equivalent Privacy (WEP), WiFi Protected Access (WPA)**, WIFi Protected Setup (**WPS**) < **DPP**
@@ -16,4 +16,4 @@
 - detection method [signature/pattern, behavioral/anomaly (ML or handcraft), trend (overtime)]
 - web filter {agent-based(with cloud platform)/centralized web}
 
-q2, q9, q12
+q1 q2 q4 q7 q11 q13
