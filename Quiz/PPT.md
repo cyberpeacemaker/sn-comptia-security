@@ -1,6 +1,6 @@
-# 16
-- 22:RAID
-- 28
+- 16
+- 22
+    - Redundant Array of Independent Disk (**RAID**)
 - 32
     - Lightweight Extensible Authentication Protocal (**LEAP**)
     - Protected Extensible Authentication Protocal (**PEAP**)
@@ -10,5 +10,18 @@
     - Certificate Revocation List (**CRL**) < Online Certificates Status Protocal (**OCSP**) + Stapling 
     - Certificate Signing Request (**CSR**)
     - Cyclic Redundancy Check (**CRC**)
-
--- 88
+- 88
+    - data [ower, controller, processor, custodian], [steward, privacy officer]
+- 110
+    - Software Defined WAN (SD-WAN)
+    - Secure Access Service Edge (**SASE**)
+- 143
+    - File Integrity Monitoring (**FIM**)
+    - Sender Policy Framework (**SPF**)
+    - Network Access Control (**NAC**)
+- 153 
+    - Authentication Header (**AH**)
+    - Encapsulating Security Payload (**ESP**)
+    - Secure Real-time Transport Protocal (**SRTP**)
+- 155
+    - Secure/Multipurpose Internet Mail Extensions (**S/MME**)
