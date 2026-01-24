@@ -1,3 +1,7 @@
+Security Assertion Markup Language(**SAML**), Simple Object Access Protocal(**SOAP**)
+Simple Authentication and Security Layer** (**SASL**) (LDAP)
+secure access service edge (**SASE**) (ZTA, Cloud Access Security Broker (**CASB**), Secure Web Gateway (**SWG**))
+ 
 # Authentication & Authorization
 - Identity and Access Management (**IAM**) [Identification, authentication, Authorization, Accounting]
 - Public Key Infrasturcture X.509 (**PKI**), Certificate Authorities (**CA**), Certificate revocation list(**CRL**), Certificate Signing Request (**CSR**)

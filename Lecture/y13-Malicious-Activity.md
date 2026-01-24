@@ -21,5 +21,5 @@
 
 # 3. Application
 - Seesion [replay attack, forgery attack{cross-site request forgery CSRF(confused deputy attack)/server-side request forgery **SSRF**}]
-- **canonicalization** attack, RUL Analysis (**starting point**), percent encoding
+- **canonicalization** attack, URL Analysis (**starting point**), percent encoding
 

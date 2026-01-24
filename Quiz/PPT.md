@@ -5,12 +5,9 @@
     - Lightweight Extensible Authentication Protocal (**LEAP**)
     - Protected Extensible Authentication Protocal (**PEAP**)
     - Remote Authentication Dial-In User Service (**RADIUS**)
-- 44 RAID
 - 51
     - Certificate Revocation List (**CRL**) < Online Certificates Status Protocal (**OCSP**) + Stapling 
-    - Certificate Signing Request (**CSR**)
-    - Cyclic Redundancy Check (**CRC**)
-- 88
+- 90
     - data [ower, controller, processor, custodian], [steward, privacy officer]
 - 110
     - Software Defined WAN (SD-WAN)

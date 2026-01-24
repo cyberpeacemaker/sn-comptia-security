@@ -17,7 +17,7 @@
 # 2. Change
 - policy, procedure, technology must changed often
 - **Fit-gap**
-- **Acceptable use Policy (UAP)**
+- **Acceptable use Policy (AUP)**
 - **mainatenance window**
 - Software Development Life Cycle (SDLC)
 

@@ -1,1 +1,57 @@
--- 110
+- Security Assertion Markup Language(**SAML**) (authentication,SP, IdP), OAuth (Authorization, app, token)
+- Simple Authentication and Security Layer** (**SASL**) (LDAP)
+- secure access service edge (**SASE**) (ZTA, Cloud Access Security Broker (**CASB**) (shadow IT), Secure Web Gateway (**SWG**))
+- Security Content Automation Protocal (**SCAP**) (CVE)
+
+- 176
+    - 802.1X
+    - Security Assertion Markup Language (**SAML**)
+    - Challenge-Response Authentication Protocal (**CRAP**)
+- 181
+    - Virtual Desktop Infrastructure (**VDI**)
+    - Mobile Device Management (**MDM**)
+    - Virtual Private Cloud (**VPC**)
+- 186
+    - Secure Shell (**SSH**)
+    - Secure Realtime Transport Protocal (**STRP**)
+    - Secure/Multipurpose Internet Message Extensions (**S/MIME**)
+    - Point-to-Point Tunneling Protocal (**PPTP**)
+- 190
+    - Cybersecurity Framework (**CSF**)
+    - CIS baseline
+- 197
+    - Co-Channel Interference (CCI)
+    - Adjacent-Channel Interference (ACI)
+- 205
+    - Sessoin Initiation Protocal (**SIP**)
+    - Internet Service Provider (**ISP**)
+- 206
+    - Multi-Function Printers (MFP)
+- 211, 300
+    - Privileged Access Management (**PAM**)
+- 215
+    - Cloud Access Security Broker (**CASB**)
+- 216
+    - Indicator of Compromise (**IOC**)
+- 230  
+    - Secure Web Gateway(**SWG**)
+- 236, 274
+    - Identity Provider (**IdP**)
+    - Security Assertion Markup Language (**SAML**)
+    - Open Authentication (**OAuth**)
+- 293
+    - Responsibility matrix
+- 310
+    - Business Impact Analysis (**BIA**)
+- 342
+    - Procedure (which of the following documents details how to accomplish a technical security task? )
+    - Standard (A manager reprimands an IT employee because the employee did not follow instructions on the server build. Each server's configuration was different, including different software and settings. What should the employee have followed to build the server correctly?)
+- 412
+    - Acceptable Use Policy (**AUP**)
+    - End-User License Agreement (EULA)
+- 428
+    - Data Protection Officer (DPO)
+- 621
+    - Managed Security Service Provider (MSSP)
+- 622
+    - User Acceptance Testing (UAT)
